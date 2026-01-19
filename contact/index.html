@@ -635,11 +635,11 @@
       color: rgba(16,24,40,.92);
     }
 
-    /* Move EVERYTHING under title together (MAIN KNOB) */
-    .contact-stack{
-      width: 80%;
-      margin-left: 40px;
-      transform: translateX(75px);
+        /* ✅ FIX: keep the whole stack perfectly centered under “Events” */
+    .events-stack{
+      width: min(1200px, 100%);
+      margin: 0 auto;  /* centers under title */
+      transform: none; /* no right shift */
     }
 
     /* description “card” */
